@@ -1,0 +1,100 @@
+.seat {
+  background-color: #081954;
+  margin: 6px;
+  display: inline-block;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid black;
+  box-shadsow: 3px 3px 5px #000;
+}
+
+img{
+  height: 21%;
+  width: 21%;
+}
+
+#title{
+  padding-bottom: -50%;
+}
+
+.clicked {
+  background-color: green;
+  border: 1px solid black;
+}
+.row {
+  position: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.form-control{
+  text-align: center;
+  display:block;
+  }
+#inputButton{
+  text-align: center;
+  }
+
+.taken {
+  background-color: red;
+  border: 1px solid black;
+}
+
+/* Makes the modal display in the center of the screen*/
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#resMessage{
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* credit for getting screen to work goes to Luka Čavka */
+/*.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}*/
+
+div span {
+  color: white;
+}
